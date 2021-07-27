@@ -10,17 +10,25 @@ html, body{
 .contain{
 	position: relative;
 	width: 100%;
-	max-width: 1500px;
 }
 
-.btn{
+#touch{
+	max-height: 8rem;
+	width: 15rem;
+	font-family: 'Karla', sans-serif;
 	position: absolute;
-	top: 40%;
+	color: rgba(0, 0, 0, 0.952);
+	margin-top: 20%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.596), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	left: 6%;
+	border: none;
+	font-size: 1.2em !important;
+	transition: 0.5s ease-in-out;
 }
 
-.btn:hover{
+#touch:hover{
+	border: none;
+	max-height: 8rem;
 	background-color: rgb(1, 20, 43);
 	color: rgb(226, 226, 226);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.596), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -28,21 +36,51 @@ html, body{
 
 .knowMe{
 	display: inline-block;
-    color: rgb(0, 0, 0);
+	text-decoration-line: none;
+    color: black;
 	font-family: "Roboto", sans-serif;
     position: absolute;
-	top: 90%;
+	top: 94%;
 	letter-spacing: .3rem;
     padding-left: 6%;
 	font-weight: 400;
-	font-size: 1rem;
+	font-size: 0.9rem;
+	transition: 0.3s ease-in-out;
 }
 
+.knowMe:after {
+	content: "";
+	display: block;
+	width: 18rem;
+	height: 1px;
+	background: rgb(68, 86, 119);
+	margin-left: 0%;
+	top: 90%;
+	position: absolute;
+  }
 
+.knowMe:hover{
+	color: rgb(58, 67, 77);
+}
+
+.knowMe:after:hover{
+	color: rgb(61, 110, 167);
+	
+}
+
+#flexy{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+
+}
 
 .headings{
 	text-decoration-line: overline; 
-	padding-top: 50px;
+	padding-top: 1.2em;
+	padding-bottom: .9em;
 	font-family: 'Karla', sans-serif;
 	margin-left: 110px;
 	color: rgba(1, 26, 54, 0.829);
@@ -50,79 +88,127 @@ html, body{
 }
 
 h6{
-	margin-left: 110px;
+	margin-left: 3rem;
 	max-width: 60%;
 	color: black;
 }
 
-
-
 .profilePhoto{
-	margin-top: 30px;
-	width: 250px;
-	display: flex;
-	float: right;
-	height: 250px;
+	max-width: 16em;
+	max-height: 18em;
+	padding: 0.5rem;
+}
+
+.para{
+	margin-top: -10px;
 }
 
 /*--------cards----------*/
-.card1{
-	max-width: 70%;
+
+#avataar{
+	max-width: 10em;
+	max-height: 10em;
+	border-radius: 80%;
+	padding-top: 0.4em;
 }
 
-  .avtaar{
-	width: 50%;
-	height: 50%;
-	margin-left: 25%;
-	display: flex;
-	margin-top: 5%;
+.avataarVertical{
+	max-width: 9em;
+	max-height: 9em;
+	border-radius: 80%;
 }
 
-.top{
+#set{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: 60%;
-	align-items: left;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
-  /* card ends here */
-
-
-  #topBtn {
-	position: fixed;
-	bottom: 20px;
-	right: 30px;
+.column{
+	display: flex;
+	flex-direction: column;
 	align-items: center;
-	z-index: 105;
-	font-size: 22px;
-	border: none;
-	align-content: center;
-	max-width: 80%;
-	max-height: 20%;
-	background-color: rgba(1, 26, 54, 0.829);
-	color: white;
-	padding: 15px;
-	cursor: pointer;
-	transition: 0.2s ease-in;
-	border-radius: 100%;
+	max-width: 20rem;
+}
+
+.vertical{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	max-width: 31.2rem;
+}
+
+#set1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+
+#header-social{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	color: black;
+}
+
+.bodyText{
+	text-align: center;
+	padding: 1rem;
+}
+
+i{
+	color: black;
+	letter-spacing: 0.5em;
+	margin-top: 0.8em;
+	margin-left: 0.2em;
+	transition: 0.4s ease-in-out;
+}
+
+i:hover{
+	color: rgba(72, 128, 192, 0.966);
 	
-  }
-  
-  #topBtn:hover {
-	background-color: rgba(0, 6, 43, 0.753);
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.664);
-  }
+}
+.card{
+	transition: 0.3s ease-in;
+}
+.card:hover{
+	box-shadow: 0 8px 8px 2px rgba(128, 130, 131, 0.781);
+}
+/* card ends here */
 
   #contactUs{
-		background-color: rgba(241, 246, 255, 0.747);
+	background-color: rgba(208, 223, 250, 0.356);
   }
 
   form{
-	  min-height: 70vh;
-	  overflow-x: hidden;
-	  margin-top: 50px;
-	  color: black;
-	  font-size: 18px;
+	min-height: 70vh;
+	overflow-x: hidden;
+	margin-top: 50px;
+	color: black;
+	font-size: 18px;
+  }
+
+  .label{
+	margin-left: 3em;
+  }
+
+  .input{
+	  width: 25em;
+	  height: 2em;
+	  padding-left: 0.6em;
+	  margin-left: -2em;
+	  font-size: 1em;
+	  border: 0.5px solid rgba(169, 169, 169, 0.671);
+	  border-radius: 5px;
+  }
+
+  .input:hover{
+	border: 1px solid rgb(139, 131, 131);
   }
 
   .Submit{
@@ -131,7 +217,7 @@ h6{
 	width: 280px;
 	margin-left: 110px;
 	margin-top: 60px;
-	background-color: rgb(68, 86, 119);
+	background-color: rgb(45, 63, 97);
 	color: rgb(255, 253, 253);
 	border: none;
 	outline: none;
@@ -144,5 +230,137 @@ h6{
   }
 
   .Submit:hover{
-	  background-color: rgba(1, 26, 54, 0.829);
+	background-color: rgb(0, 6, 43);
+	color:rgb(255, 255, 255);
   }
+
+  #topBtn {
+	width: 2.5em;
+	height: 2.5em;
+	margin-left: 82em;
+	margin-top: -7em;
+	position: absolute;
+	font-size: 15px;
+	padding-left: .8em;
+	padding-top: .7em;
+	background-color: rgb(0, 6, 43);
+	color:rgb(64, 109, 175);
+	z-index: 4;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+  }
+  
+  #topBtn:hover {
+	background-color: rgba(54, 106, 167, 0.952);
+	color: rgb(22, 21, 21);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.664);
+  }
+
+  .temp::before{
+	content: "";
+	display: block;
+	width: 19em;
+	height: 1px;
+	background: rgba(172, 174, 177, 0.349);
+	margin-left: 0%;
+	top: 166.7rem;
+	z-index: 1;
+	left: 77%;
+	position: absolute;
+  }
+
+  .temp::after{
+	content: "BACK TO TOP";
+	display: block;
+	width: 20rem;
+	height: 1px;
+	transform: rotate(90deg);
+	color: rgba(70, 68, 68, 0.205);
+	background: rgba(161, 165, 172, 0.349);
+	margin-left: 0%;
+	top: 160rem;
+	left: 68em;
+	position: absolute;
+  }
+
+  /*  Media Queries  */
+
+  @media screen and (max-width: 600px) {
+
+		.headings{
+			margin-left: 2em;
+		}
+
+		.knowMe{
+			font-size: 0.9em;
+			margin-top: -1rem;
+		}
+
+		.knowMe:after {
+			width: 11rem;
+		  }
+		
+		
+		.contain{
+			font-size: 12px;
+		}
+
+		#touch{
+			margin-top: 5em;
+			max-width: 25%;
+			margin-left: 2px;
+			margin-right: 2px;
+			margin-left: -8px;
+		}
+
+		.para{
+			margin-top: 7px;
+			margin-right: 22px;
+		}
+		
+		.label{
+			margin-left: 5em;
+		}
+
+		.input{
+			max-width: 17rem;
+			height: 2.2rem;
+			font-size: 16px;
+			margin-left: 5.5em;
+			margin-bottom: 2px;
+		}
+
+		#topBtn {
+			width: 2.5em;
+			height: 2.5em;
+			margin-left: 26em;
+			margin-top: -5em;
+		  }
+
+		  .temp::before{
+			margin-top: 182.5em;
+			margin-left: em;
+			width: 7.5em;
+		  }
+		
+		  .temp::after{
+			margin-top: 229.5em;
+			width: 15em;
+			margin-left: -3.2em;
+			font-size: small;
+		  }
+
+		.Submit{
+			max-width: 7em;
+			max-height: 2em;
+			margin-bottom: 2em;
+			font-size: 1.1em;
+			margin-left: 7em;
+		}
+
+		.First{
+			margin-left: 0.1em;
+		}
+  }
+
+  

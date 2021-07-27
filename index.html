@@ -5,40 +5,49 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"    	crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300,family=Karla:wght@300&display=swap" rel="stylesheet"> 
+
+	<!--ANIMATION.CSS LINK -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	
-	<!-- Add icon library -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- BOOTSTRAP5 CSS LINK -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel=”stylesheet” href=”css/bootstrap.css”>
 	<link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+	
+	<!--FONT- AWESOME LINK -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- GOOGLE FONT LINK -->
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300,family=Karla:wght@300&display=swap" rel="stylesheet"> 
 
 	<title>appoinment booking</title>
 
 </head>
 <body>
 
+	<!-------------------------NAVBAR STARTS HERE----------------------------------->
+
+	
+
+	<!--------------------------NAVBAR ENDS HERE----------------------------------->
+
 	<!---------------------LANDING PAGE STARTS HERE---------------------------------->
 
 	<section id="landingPage">
 		<div class="contain">
-		<a href="#contactUs" role="button" class="btn btn-info btn-lg px-4 rounded-pill">
+		<a href="#contactUs" role="button" id="touch" class="btn btn-primary btn py-2">
 			Get In Touch 
 		</a>
+	
 		<a class="knowMe" href="#aboutUs">
 			WHO ARE WE?
 		</a>
+	
 		<img class="img1 img-fluid" src="cover.jpg">
-	</div>
+</div>
 	</section>
 
 	<!---------------------LANDING PAGE ENDS HERE---------------------------------->
-
-	<!---------------------BACK TO TOP BUTTON STARTS HERE---------------------------------->
-
-	<div id="topBtn" onclick="topFunction()" class="fa" title="Back To Top"></div>
-
-	<!---------------------BACK TO TOP BUTTON ENDS HERE---------------------------------->
 
 	<!---------------------ABOUT US STARTS HERE---------------------------------->
 
@@ -46,18 +55,20 @@
 		<h2 class="headings">
 			ABOUT US
 		</h2>
+		<div id="flexy"> 
 		<span>
 			<img src="profile.jpeg" alt="Profile"  class="profilePhoto">
 		</span>
-		<h6>
+		<h6 class="para animate__animated animate__bounce">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem?
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem?
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem?
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor.Consequuntur, a libero iure commodi deserunt exercitationem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem?
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem?
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem?
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem?
 			adipisicing elit. Sunt fugiat nihil placeat, tempora, illum, maiores quod quis tenetur accusantium aspernatur soluta quas dolor. Consequuntur, a libero iure commodi deserunt exercitationem?
 		</h6>
+		</div>
 	</section>
 
 	<!---------------------ABOUT US ENDS HERE---------------------------------->
@@ -69,67 +80,118 @@
 			HAPPY CLIENTS 
 		</h2>
 
-		<br>
+		  <!---Card set 1------>
+		<div id="set" class="container">
+		
+			<div class="card line column border-secondary mb-3">
+				<img src="profile.jpeg" id="avataar" alt="...">
 
-	<!---Card set 1------>
-	<div class="container">
+				<div id="header-social">
+						<a target="_blank" href="#"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+				</div>
 
-		<div class="card w-75">
-			<div class="card-body top vertical medium-horizontal">
-				<img src="profile.jpeg" class="h-25 card-img-top col-md-3 ms-auto float-start rounded-circle">
-				<div class="p-3 text-dark">
-			  <h5 class="card-title">Card title</h5>
-			  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. With supporting text below as a natural lead-in to additional content.</p>
-			</div>
-			</div>
-		  </div>
-		  <br>
+				<div class="bodyText col-md-9">
+					<h5 class="card-title text-dark ">Full Name</h5>
+					<p class="card-text text-secondary ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente sunt eligendi est cumque, possimus nam explicabo enim animi exercitationem a, in quibusdam facilis et quasi, repudiandae blanditiis deserunt facere?</p>
+				</div>
+			  </div>
 
+			<div class="card line column border-secondary mb-3">
+				<img src="profile.jpeg" id="avataar" alt="...">
+
+				<div id="header-social">
+						<a target="_blank" href="#"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+				</div>
+
+				<div class="bodyText col-md-9">
+						<h5 class="card-title text-dark">Full Name</h5>
+						<p class="card-text text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente sunt eligendi est cumque, possimus nam explicabo enim animi exercitationem a, in quibusdam facilis et quasi, repudiandae blanditiis deserunt facere?</p>
+					</div>
+				</div>
+
+				<div class="card line column border-secondary mb-3">
+					<img src="profile.jpeg" id="avataar" alt="...">
+
+					<div id="header-social">
+						<a target="_blank" href="#"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+				</div>
+
+					<div class="bodyText col-md-9">
+						<h5 class="card-title text-dark">Full Name</h5>
+						<p class="card-text text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente sunt eligendi est cumque, possimus nam explicabo enim animi exercitationem a, in quibusdam facilis et quasi, repudiandae blanditiis deserunt facere?</p>
+					</div>
+				</div>
+
+		</div>
 
 		  <!---Card set 2------>
 
-		  <div class="card-deck">
-		  <div class="card border-grey mb-3" style="max-width: 16rem;">
-			<img src="profile.jpeg" class="avtaar rounded-circle">
-			<div class="card-body text-dark text-center">
-			  <h5 class="card-title">Dark card title</h5>
-			  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		<div id="set1" class="container">
+
+			<div class="card vertical First border-secondary mb-3 w-50">
+				<div class="row g-0">
+				<div class="col-md-4">
+					<img src="profile.jpeg" class="avataarVertical mx-3 mt-3" alt="First card">
+
+					<div id="header-social-vertical">
+                
+						<a target="_blank" href="#"><i class="fa fa-linkedin fa-lg  ms-4" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>		
+				</div>
+				</div>
+				<div class="col-md-8">
+					<div class="card-body">
+					<h5 class="card-title text-dark">Full Name</h5>
+					<p class="card-text  text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus, debitis molestiae ea aspernatur quas voluptas sunt molestias veniam, voluptatum dicta illo? Rerum, numquam molestias ipsam id deserunt ex earum. </p>
+					</div>
+					</div>
+					</div>
 			</div>
+
+			<div class="card vertical second border-secondary mb-3 w-50 ">
+				<div class="row g-0">
+				  <div class="col-md-4">
+					<img src="profile.jpeg" class="avataarVertical  mx-3 mt-3" alt="Second Card">
+
+					<div id="header-social-vertical">
+                
+						<a target="_blank" href="#"><i class="fa fa-linkedin fa-lg ms-4" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>		
+						<a target="_blank" href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+						<a target="_blank" href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+					
+				</div>
+				  </div>
+				  <div class="col-md-8">
+					<div class="card-body">
+					  <h5 class="card-title text-dark">Full Name</h5>
+					  <p class="card-text text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus, debitis molestiae ea aspernatur quas voluptas sunt molestias veniam, voluptatum dicta illo? Rerum, numquam molestias ipsam id deserunt ex earum. </p>
+					</div>
+				  </div>
+				</div>
+				</div>
+
 		  </div>
-		  <div class="card border-grey mb-3" style="max-width: 16rem;">
-			<img src="profile.jpeg" class="avtaar rounded-circle">
-			<div class="card-body text-dark text-center">
-			  <h5 class="card-title">Dark card title</h5>
-			  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			</div>
-		  </div>
-		  <div class="card border-grey mb-3" style="max-width: 16rem;">
-			<img src="profile.jpeg" class="avtaar rounded-circle">
-			<div class="card-body text-dark text-center">
-			  <h5 class="card-title">Dark card title</h5>
-			  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			</div>
-		  </div>
-		  </div>
-  
+		  
 		  <!---Card set 3------>
 
-		  <div class="card w-75">
-			<div class="card-body top">
-				<img src="profile.jpeg" class="card-img-top img col-md-3 ms-auto float-start rounded-circle">
-				<div class="p-3 text-dark">
-			  <h5 class="card-title">Card title</h5>
-			  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. With supporting text below as a natural lead-in to additional content.</p>
-			</div>
-			</div>
-		  </div>
-
-	</div>
 
 	</section><br>
 
 	
 	<!---------------------HAPPY CLIENTS ENDS HERE---------------------------------->
+
 
 	<!---------------------CONTACT US STARTS HERE---------------------------------->
 
@@ -140,33 +202,33 @@
 
 		<form class="container"> 
 		<div class="mb-3 row">
-			<label for="example-text-input" class="col-3 col-form-label">Name</label>
-			<div class="col-sm-5 pt-2">
-			  <input class="form-control" type="text" placeholder="Enter Your Full Name" id="example-text-input">
+			<label for="text-input" class="col-sm-3 col-form-label label">Name</label>
+			<div class="col-sm-5 pt-1">
+			  <input class="input" type="text" placeholder="Enter Your Full Name" id="text-input">
 			</div>
 		  </div>
 		  <div class="mb-3 row">
-			<label for="example-email-input" class="col-3 col-form-label">Email ID</label>
+			<label for="email-input" class="col-sm-3 col-form-label label">Email ID</label>
 			<div class="col-sm-5 pt-2">
-			  <input class="form-control" type="email" placeholder="Enter your Email Id" id="example-email-input">
+			  <input class="input" type="email" placeholder="Enter your Email Id" id="email-input">
 			</div>
 		  </div>
 		  <div class="mb-3 row">
-			<label for="example-tel-input" class="col-3 col-form-label">Telephone Number</label>
+			<label for="tel-input" class="col-sm-3 col-form-label label">Telephone Number</label>
 			<div class="col-sm-5 pt-2">
-			  <input class="form-control" type="tel" placeholder="Enter your Telephone number" id="example-tel-input">
+			  <input class="input" type="tel" placeholder="Enter your Telephone number" id="tel-input">
 			</div>
 		  </div>
 		  <div class="mb-3 row">
-			<label for="example-datetime-local-input" class="col-3 col-form-label">Start Date and Time</label>
+			<label for="datetime-local-input" class="col-sm-3 col-form-label label">Start Date and Time</label>
 			<div class="col-sm-5 pt-2">
-			  <input class="form-control" type="datetime-local" placeholder="yyyy-mm-ddThh:mm:ss" id="example-datetime-local-input">
+			  <input class="input" type="datetime-local" placeholder="yyyy-mm-ddThh:mm:ss" id="datetime-local-input">
 			</div>
 		  </div>
 		  <div class="mb-3 row">
-			<label for="example-datetime-local-input" class="col-3 col-form-label">End Date and Time</label>
+			<label for="datetime-local-input" class="col-sm-3 label col-form-label label">End Date and Time</label>
 			<div class="col-sm-5 pt-2">
-			  <input class="form-control" type="datetime-local" placeholder="yyyy-mm-ddThh:mm:ss" id="example-datetime-local-input">
+			  <input class="input" type="datetime-local" placeholder="yyyy-mm-ddThh:mm:ss" id="datetime-local-input">
 			</div>
 		  </div>
 
@@ -176,58 +238,36 @@
 
 		</form>
 
+
+		<!---------------------BACK TO TOP BUTTON STARTS HERE---------------------------------->
+
+	<div class="temp" onclick="topFunction()" title="Back to Top">
+		<i class="fa fa-arrow-up" id="topBtn" aria-hidden="true"></i>
+	</div>
+
+	<!---------------------BACK TO TOP BUTTON ENDS HERE---------------------------------->
+
 	</section>
 
-	<!---------------------CONTACT US STARTS HERE---------------------------------->
+	<!---------------------CONTACT US ENDS HERE---------------------------------->
 
-	<!------------Scripting for Back to top button STARTS HERE------------------------------------->
 
-	<script>
-		//Get the button
-		var mybutton = document.getElementById("topBtn");
-		
-		// When the user scrolls down 20px from the top of the document, show the button
-		window.onscroll = function() {scrollFunction()};
-		
-		function scrollFunction() {
-		  if (document.body.scrollTop >  580 || document.documentElement.scrollTop > 580) {
-			mybutton.style.display = "block";
-		  } else {
-			mybutton.style.display = "none";
-		  }
-		}
-		
-		// When the user clicks on the button, scroll to the top of the document
-		function topFunction() {
-		  document.body.scrollTop = 0;
-		  document.documentElement.scrollTop = 0;
-		}
-		</script>
 
-	<!------------Scripting for Back to top button ENDS HERE------------------------------------->
+	<!------------Scripting STARTS HERE------------------------------------->
 
-	<script>
-		function angleAnimation() {
-			var a;
-			a = document.getElementById("topBtn");
-			a.innerHTML = "&#xf102;";
-			setTimeout(function () {
-				a.innerHTML = "&#xf106;";
-				}, 800);
-			setTimeout(function () {
-				a.innerHTML = "&#xf102;";
-				}, 4000);
-			
-			}
-			angleAnimation();
-			setInterval(angleAnimation, 1000);
-	</script>
+	<script src="script.js"> </script>
+
+	<!------------Scripting ENDS HERE------------------------------------->
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
 	</script>
 	
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script>
