@@ -272,34 +272,33 @@ i:hover{
   .temp::after{
 	content: "BACK TO TOP";
 	display: block;
-	width: 20rem;
+	width: 24rem;
 	height: 1px;
 	transform: rotate(90deg);
 	color: rgba(70, 68, 68, 0.205);
 	background: rgba(161, 165, 172, 0.349);
 	margin-left: 0%;
 	top: 160rem;
-	left: 68em;
+	left: 66em;
 	position: absolute;
   }
 
   /*  Media Queries  */
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 480px) {
 
 		.headings{
 			margin-left: 2em;
 		}
 
 		.knowMe{
-			font-size: 0.9em;
+			font-size: 0.5rem;
 			margin-top: -1rem;
 		}
 
 		.knowMe:after {
 			width: 11rem;
-		  }
-		
+		}
 		
 		.contain{
 			font-size: 12px;
@@ -307,7 +306,8 @@ i:hover{
 
 		#touch{
 			margin-top: 5em;
-			max-width: 25%;
+			font-size: small;
+			max-width: 24%;
 			margin-left: 2px;
 			margin-right: 2px;
 			margin-left: -8px;
@@ -335,20 +335,20 @@ i:hover{
 			height: 2.5em;
 			margin-left: 26em;
 			margin-top: -5em;
-		  }
+		}
 
-		  .temp::before{
-			margin-top: 182.5em;
-			margin-left: em;
-			width: 7.5em;
-		  }
+		.temp::before{
+			margin-top: 162.5em;
+			margin-left: -2em;
+			width: 8.5em;
+		}
 		
-		  .temp::after{
-			margin-top: 229.5em;
+	    .temp::after{
+			margin-top: 204.5em;
 			width: 15em;
-			margin-left: -3.2em;
+			margin-left: -42em;
 			font-size: small;
-		  }
+	  	}
 
 		.Submit{
 			max-width: 7em;
