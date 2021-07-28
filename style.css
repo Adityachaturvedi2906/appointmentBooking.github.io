@@ -285,7 +285,7 @@ i:hover{
 
   /*  Media Queries  */
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 440px) {
 
 		.headings{
 			margin-left: 2em;
@@ -319,14 +319,14 @@ i:hover{
 		}
 		
 		.label{
-			margin-left: 5em;
+			margin-left: 3em;
 		}
 
 		.input{
 			max-width: 17rem;
 			height: 2.2rem;
 			font-size: 16px;
-			margin-left: 5.5em;
+			margin-left: 3.5em;
 			margin-bottom: 2px;
 		}
 
@@ -338,13 +338,13 @@ i:hover{
 		}
 
 		.temp::before{
-			margin-top: 162.5em;
+			margin-top: 182.5em;
 			margin-left: -2em;
 			width: 8.5em;
 		}
 		
 	    .temp::after{
-			margin-top: 204.5em;
+			margin-top: 229.5em;
 			width: 15em;
 			margin-left: -42em;
 			font-size: small;
@@ -354,8 +354,10 @@ i:hover{
 			max-width: 7em;
 			max-height: 2em;
 			margin-bottom: 2em;
+			padding-bottom: 1em;
+			padding-top: 0.23em;
 			font-size: 1.1em;
-			margin-left: 7em;
+			margin-left: 5em;
 		}
 
 		.First{
