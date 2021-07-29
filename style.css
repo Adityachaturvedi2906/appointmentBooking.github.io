@@ -238,7 +238,7 @@ i:hover{
 	width: 2.5em;
 	height: 2.5em;
 	margin-left: 82em;
-	margin-top: -7em;
+	margin-top: -7.2em;
 	position: absolute;
 	font-size: 15px;
 	padding-left: .8em;
@@ -285,14 +285,14 @@ i:hover{
 
   /*  Media Queries  */
 
-  @media screen and (max-width: 440px) {
+  @media screen and (max-width: 480px) {
 
 		.headings{
-			margin-left: 2em;
+			margin-left: 1em;
 		}
 
 		.knowMe{
-			font-size: 0.5rem;
+			font-size: 0.7rem;
 			margin-top: -1rem;
 		}
 
@@ -307,7 +307,7 @@ i:hover{
 		#touch{
 			margin-top: 5em;
 			font-size: small;
-			max-width: 24%;
+			max-width: 29%;
 			margin-left: 2px;
 			margin-right: 2px;
 			margin-left: -8px;
@@ -315,39 +315,36 @@ i:hover{
 
 		.para{
 			margin-top: 7px;
-			margin-right: 22px;
+			margin-right: 5px;
+			max-width: 25em;
 		}
 		
 		.label{
-			margin-left: 3em;
+			margin-left: 1.5em;
 		}
 
 		.input{
 			max-width: 17rem;
 			height: 2.2rem;
 			font-size: 16px;
-			margin-left: 3.5em;
+			margin-left: 1.8em;
 			margin-bottom: 2px;
 		}
 
 		#topBtn {
 			width: 2.5em;
 			height: 2.5em;
-			margin-left: 26em;
+			margin-left: 20em;
 			margin-top: -5em;
 		}
 
 		.temp::before{
-			margin-top: 182.5em;
-			margin-left: -2em;
-			width: 8.5em;
+			width: 0em;
 		}
 		
 	    .temp::after{
-			margin-top: 229.5em;
-			width: 15em;
-			margin-left: -42em;
-			font-size: small;
+			content: '';
+			width: 0em;
 	  	}
 
 		.Submit{
@@ -360,9 +357,16 @@ i:hover{
 			margin-left: 5em;
 		}
 
+		.card{
+			max-width: 18em;
+		}
+
+		.zero{
+			width: 8em;
+		}
+
 		.First{
 			margin-left: 0.1em;
 		}
-  }
 
-  
+  }
