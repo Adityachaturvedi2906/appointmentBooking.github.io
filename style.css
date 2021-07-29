@@ -334,17 +334,20 @@ i:hover{
 		#topBtn {
 			width: 2.5em;
 			height: 2.5em;
-			margin-left: 20em;
+			margin-left: 22em;
 			margin-top: -5em;
 		}
 
 		.temp::before{
-			width: 0em;
+			margin-top: 174.5em;
+			width: 5em;
 		}
 		
 	    .temp::after{
-			content: '';
-			width: 0em;
+			margin-top: 219em;
+			width: 16em;
+			font-size: small;
+			margin-left: -47em;
 	  	}
 
 		.Submit{
