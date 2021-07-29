@@ -315,7 +315,7 @@ i:hover{
 
 		.para{
 			margin-top: 7px;
-			margin-right: 5px;
+			margin-left: 5px;
 			max-width: 25em;
 		}
 		
@@ -327,8 +327,8 @@ i:hover{
 			max-width: 17rem;
 			height: 2.2rem;
 			font-size: 16px;
-			margin-left: 1.8em;
-			margin-bottom: 2px;
+			margin-left: 1.5em;
+			margin-bottom: -3px;
 		}
 
 		#topBtn {
@@ -339,15 +339,12 @@ i:hover{
 		}
 
 		.temp::before{
-			margin-top: 174.5em;
-			width: 5em;
+			width: 0em;
 		}
 		
 	    .temp::after{
-			margin-top: 219em;
-			width: 16em;
-			font-size: small;
-			margin-left: -47em;
+			content: '';
+			width: 0em;
 	  	}
 
 		.Submit{
